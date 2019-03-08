@@ -46,7 +46,7 @@ class OrderCardState extends State<OrderCard> {
             children: <Widget>[
               Container(
                 margin: EdgeInsets.only(left: 20.0),
-                padding: EdgeInsets.all(15.0),
+                padding: EdgeInsets.only(bottom: 15.0, left: 15.0, right: 15.0),
                 decoration: BoxDecoration(
                   border: Border(
                     left: BorderSide(width: 1.0, color: Colors.grey),
@@ -65,7 +65,6 @@ class OrderCardState extends State<OrderCard> {
                 ),
               ),
               new Positioned(
-                top: 10.5,
                 left: 10.5,
                 child: _buildClockIcon(),
               ),

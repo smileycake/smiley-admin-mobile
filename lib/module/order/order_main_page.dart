@@ -11,8 +11,11 @@ class OrderMainPage extends AbstractPage {
       navigationBar: CupertinoNavigationBar(
         middle: Text('2019-03-06'),
       ),
-      child: Center(
-        child: OrderList(),
+      child: Container(
+        margin: EdgeInsets.only(top: 20.0),
+        child: Center(
+          child: OrderList(),
+        ),
       ),
     );
   }
