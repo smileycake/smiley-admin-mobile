@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:english_words/english_words.dart';
-import 'package:smiley_admin_mobile/route/route.dart';
+import 'package:smiley_admin_mobile/ui/route/route.dart';
 
 void main() => runApp(SmileyAdmin());
 

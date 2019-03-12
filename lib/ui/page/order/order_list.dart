@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:smiley_admin_mobile/module/order/order_card.dart';
+import 'package:smiley_admin_mobile/ui/page/order/order_card.dart';
 
 class OrderList extends StatefulWidget {
 

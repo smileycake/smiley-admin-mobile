@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:smiley_admin_mobile/abstract_page.dart';
-import 'package:smiley_admin_mobile/module/order/order_main_page.dart';
-import 'package:smiley_admin_mobile/module/analysis/analysis_main_page.dart';
+import 'package:smiley_admin_mobile/ui/page/abstract_page.dart';
+import 'package:smiley_admin_mobile/ui/page/order/order_main_page.dart';
+import 'package:smiley_admin_mobile/ui/page/analysis/analysis_main_page.dart';
 
 class RootNavigationState extends State<RootNavigation> {
   final int currentTab = 0;
